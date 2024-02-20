@@ -19,16 +19,9 @@
 
             var doAllHaveSamePetType = AllPetTypes.Any(pt => Pets.All(p => p.PetType == pt));
             doAllHaveSamePetType.Dump("doAllHaveSamePetType");
-<<<<<<< HEAD
-            var AreAllPetNameSameLength = Pets.All(p => p.Name.Length == Pets.First().Name.Length);
-            AreAllPetNameSameLength.Dump("AreAllPetNameSameLength");
-=======
-
 
             var AreAllPetNameSameLength = Pets.All(p => p.Name.Length == Pets.First().Name.Length);
             AreAllPetNameSameLength.Dump("AreAllPetNameSameLength");
-
->>>>>>> cfc42da (Add AreAllPetNameSameLength)
         }
     }
 }
